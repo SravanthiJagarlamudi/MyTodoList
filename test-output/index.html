@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-InetBankingV1">
+              <span class="suite-name border-passed">InetBankingV1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-InetBankingV1">
+                    <span>C:\Users\jagalram\New folder\inetBankingV1\TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-InetBankingV1">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-InetBankingV1">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-InetBankingV1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-InetBankingV1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-InetBankingV1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-InetBankingV1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-InetBankingV1" class="hide-methods passed suite-InetBankingV1"> (hide)</a> <!-- hide-methods passed suite-InetBankingV1 -->
+                      <a href="#" panel-name="suite-InetBankingV1" class="show-methods passed suite-InetBankingV1"> (show)</a> <!-- show-methods passed suite-InetBankingV1 -->
+                    </span>
+                    <div class="method-list-content passed suite-InetBankingV1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItem(StandUP Meeting)">addItem(StandUP Meeting)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItem(Fix JIRA bugs)">addItem(Fix JIRA bugs)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItem(Buy Bread)">addItem(Buy Bread)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItem(Laptop)">addItem(Laptop)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItem(Money^%^%)">addItem(Money^%^%)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItem(123Car)">addItem(123Car)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItem(Laptop123)">addItem(Laptop123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItem(Buy Bread)">addItem(Buy Bread)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItemBeginswithSpaces(      Goto ATM)">addItemBeginswithSpaces(      Goto ATM)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="addItemBeginswithSpaces(  Mobile recharge)">addItemBeginswithSpaces(  Mobile recharge)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="checkFootercount">checkFootercount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_Updateitem_002" hash-for-method="editItem(StandUP Meeting, StandUP Meeting at 10AM )">editItem(StandUP Meeting, StandUP Meeting at 10AM )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_Updateitem_002" hash-for-method="editItem(Buy Bread, Buy Bread at 8AM )">editItem(Buy Bread, Buy Bread at 8AM )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_Updateitem_002" hash-for-method="editItem(Laptop, Laptop Updated)">editItem(Laptop, Laptop Updated)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-InetBankingV1" title="com.inetBanking.testCases.TC_TodoAddItem_001" hash-for-method="testNavigateToTodosPage">testNavigateToTodosPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-InetBankingV1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-InetBankingV1" class="panel InetBankingV1">
+          <div class="suite-InetBankingV1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.inetBanking.testCases.TC_Updateitem_002</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="editItem(StandUP Meeting, StandUP Meeting at 10AM )">
+                  </a> <!-- editItem(StandUP Meeting, StandUP Meeting at 10AM ) -->
+                  <span class="method-name">editItem</span>
+                  <span class="parameters">(StandUP Meeting, StandUP Meeting at 10AM )</span>
+                  <em>
+(Editing a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editItem(Buy Bread, Buy Bread at 8AM )">
+                  </a> <!-- editItem(Buy Bread, Buy Bread at 8AM ) -->
+                  <span class="method-name">editItem</span>
+                  <span class="parameters">(Buy Bread, Buy Bread at 8AM )</span>
+                  <em>
+(Editing a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editItem(Laptop, Laptop Updated)">
+                  </a> <!-- editItem(Laptop, Laptop Updated) -->
+                  <span class="method-name">editItem</span>
+                  <span class="parameters">(Laptop, Laptop Updated)</span>
+                  <em>
+(Editing a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InetBankingV1-class-passed -->
+          <div class="suite-InetBankingV1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.inetBanking.testCases.TC_TodoAddItem_001</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(StandUP Meeting)">
+                  </a> <!-- addItem(StandUP Meeting) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(StandUP Meeting)</span>
+                  <em>
+(Adding a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(Fix JIRA bugs)">
+                  </a> <!-- addItem(Fix JIRA bugs) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(Fix JIRA bugs)</span>
+                  <em>
+(Adding a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(Buy Bread)">
+                  </a> <!-- addItem(Buy Bread) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(Buy Bread)</span>
+                  <em>
+(Adding a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(Laptop)">
+                  </a> <!-- addItem(Laptop) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(Laptop)</span>
+                  <em>
+(Adding a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(Money^%^%)">
+                  </a> <!-- addItem(Money^%^%) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(Money^%^%)</span>
+                  <em>
+(Adding a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(123Car)">
+                  </a> <!-- addItem(123Car) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(123Car)</span>
+                  <em>
+(Adding a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(Laptop123)">
+                  </a> <!-- addItem(Laptop123) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(Laptop123)</span>
+                  <em>
+(Adding a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItem(Buy Bread)">
+                  </a> <!-- addItem(Buy Bread) -->
+                  <span class="method-name">addItem</span>
+                  <span class="parameters">(Buy Bread)</span>
+                  <em>
+(Adding a TO-DO item)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemBeginswithSpaces(      Goto ATM)">
+                  </a> <!-- addItemBeginswithSpaces(      Goto ATM) -->
+                  <span class="method-name">addItemBeginswithSpaces</span>
+                  <span class="parameters">(      Goto ATM)</span>
+                  <em>
+(Adding a TO-DO item with leading and trailing spaces)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addItemBeginswithSpaces(  Mobile recharge)">
+                  </a> <!-- addItemBeginswithSpaces(  Mobile recharge) -->
+                  <span class="method-name">addItemBeginswithSpaces</span>
+                  <span class="parameters">(  Mobile recharge)</span>
+                  <em>
+(Adding a TO-DO item with leading and trailing spaces)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkFootercount">
+                  </a> <!-- checkFootercount -->
+                  <span class="method-name">checkFootercount</span>
+                  <em>
+(to check if the footercount is updated)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigateToTodosPage">
+                  </a> <!-- testNavigateToTodosPage -->
+                  <span class="method-name">testNavigateToTodosPage</span>
+                  <em>
+(to check if the page is navigated properly)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-InetBankingV1-class-passed -->
+        </div> <!-- panel InetBankingV1 -->
+        <div panel-name="test-xml-InetBankingV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\jagalram\New folder\inetBankingV1\TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;InetBankingV1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.inetBanking.utilities.Reporting&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BankingApp Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.inetBanking.testCases.TC_TodoAddItem_001&quot;/&gt;
+      &lt;class name=&quot;com.inetBanking.testCases.TC_Updateitem_002&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BankingApp Test --&gt;
+&lt;/suite&gt; &lt;!-- InetBankingV1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-InetBankingV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for InetBankingV1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BankingApp Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-InetBankingV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for InetBankingV1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">regression</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">addItemBeginswithSpaces</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkFootercount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">editItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">testNavigateToTodosPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-InetBankingV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for InetBankingV1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_InetBankingV1');
+function tableData_InetBankingV1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'addItem')
+data.setCell(0, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(0, 3, 1318);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNavigateToTodosPage')
+data.setCell(1, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(1, 3, 1259);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'editItem')
+data.setCell(2, 2, 'com.inetBanking.testCases.TC_Updateitem_002')
+data.setCell(2, 3, 272);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'editItem')
+data.setCell(3, 2, 'com.inetBanking.testCases.TC_Updateitem_002')
+data.setCell(3, 3, 249);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'editItem')
+data.setCell(4, 2, 'com.inetBanking.testCases.TC_Updateitem_002')
+data.setCell(4, 3, 247);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addItemBeginswithSpaces')
+data.setCell(5, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(5, 3, 246);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'addItemBeginswithSpaces')
+data.setCell(6, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(6, 3, 240);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addItem')
+data.setCell(7, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(7, 3, 201);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addItem')
+data.setCell(8, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(8, 3, 195);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addItem')
+data.setCell(9, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(9, 3, 188);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'addItem')
+data.setCell(10, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(10, 3, 161);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addItem')
+data.setCell(11, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(11, 3, 159);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'addItem')
+data.setCell(12, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(12, 3, 158);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addItem')
+data.setCell(13, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(13, 3, 145);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'checkFootercount')
+data.setCell(14, 2, 'com.inetBanking.testCases.TC_TodoAddItem_001')
+data.setCell(14, 3, 33);
+window.suiteTableData['InetBankingV1']= { tableData: data, tableDiv: 'times-div-InetBankingV1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-InetBankingV1">
+              </div> <!-- times-div-InetBankingV1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-InetBankingV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for InetBankingV1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-InetBankingV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.inetBanking.testCases.TC_Updateitem_002</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setup</span>
+                <br/>
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.inetBanking.testCases.TC_TodoAddItem_001</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">addItemwithNullorEmpty</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-InetBankingV1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.inetBanking.testCases.TC_TodoAddItem_001</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">testNavigateToTodosPage</span>
+                <span class="method-start">4234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(Buy Bread)</span>
+                <span class="method-start">5505 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(StandUP Meeting)</span>
+                <span class="method-start">6824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(Money^%^%)</span>
+                <span class="method-start">6984 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(123Car)</span>
+                <span class="method-start">7143 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(Laptop)</span>
+                <span class="method-start">7289 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(Laptop123)</span>
+                <span class="method-start">7478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(Fix JIRA bugs)</span>
+                <span class="method-start">7680 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItem(Buy Bread)</span>
+                <span class="method-start">7876 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItemBeginswithSpaces(  Mobile recharge)</span>
+                <span class="method-start">8039 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addItemBeginswithSpaces(      Goto ATM)</span>
+                <span class="method-start">8286 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkFootercount</span>
+                <span class="method-start">8528 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.inetBanking.testCases.TC_Updateitem_002</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">editItem(Buy Bread, Buy Bread at 8AM )</span>
+                <span class="method-start">8562 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editItem(StandUP Meeting, StandUP Meeting at 10AM )</span>
+                <span class="method-start">8835 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editItem(Laptop, Laptop Updated)</span>
+                <span class="method-start">9086 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.inetBanking.testCases.TC_TodoAddItem_001</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9659 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

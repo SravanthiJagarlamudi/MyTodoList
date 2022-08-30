@@ -1,0 +1,5 @@
+com\inetBanking\utilities\ReadConfig.class
+com\inetBanking\pages\LoginPage.class
+com\inetBanking\utilities\Reporting.class
+com\inetBanking\base\BaseClass.class
+com\inetBanking\base\BrowserFactory.class
